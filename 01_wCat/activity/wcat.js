@@ -1,5 +1,13 @@
 const fs = require("fs");
 
+/** File paths : 
+ *  "C:\Users\risha\OneDrive\Desktop\PepWebD_HW\01_wCat\raw\files\file1.txt"
+ *  "C:\Users\risha\OneDrive\Desktop\PepWebD_HW\01_wCat\raw\files\file2.txt"
+ *  "C:\Users\risha\OneDrive\Desktop\PepWebD_HW\01_wCat\raw\files\file3.txt"
+ *  "C:\Users\risha\OneDrive\Desktop\PepWebD_HW\01_wCat\raw\files\file4.txt"
+ *  "C:\Users\risha\OneDrive\Desktop\PepWebD_HW\01_wCat\raw\files\file5.txt"
+ */
+
 let input = process.argv.slice(2);
 
 let path1, path2, path3, command1, command2;
